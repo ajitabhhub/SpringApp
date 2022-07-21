@@ -5,6 +5,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.text.NumberFormat;
+
 public class RunDemo {
     public static void main(String[] args) {
 //        ApplicationContext context =
@@ -12,12 +14,16 @@ public class RunDemo {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Game game = context.getBean("game", Game.class);
-        System.out.println(game.playGame());
+        NumberFormat nf = context.getBean("nf", NumberFormat.class);
+        double amount = 12345678.9012345;
+        System.out.println(nf.format(amount));
 
-        System.out.println("There are " + context.getBeanDefinitionCount());
-        for (String name : context.getBeanDefinitionNames()) {
-            System.out.println("name = " + name);
-        }
+//        Game game = context.getBean("game", Game.class);
+//        System.out.println(game.playGame());
+//
+//        System.out.println("There are " + context.getBeanDefinitionCount());
+//        for (String name : context.getBeanDefinitionNames()) {
+//            System.out.println("name = " + name);
+//        }
     }
 }

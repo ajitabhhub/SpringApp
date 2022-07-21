@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 import javax.sql.DataSource;
+import java.text.NumberFormat;
 
 @Configuration
 @Import(InfrastructureConfig.class)
@@ -17,6 +18,11 @@ public class AppConfig {
         baseballGame.setDataSource(dataSource);
         System.out.println("dataSource = " + dataSource);
         return baseballGame;
+    }
+
+    @Bean
+    public NumberFormat nf() {
+        return NumberFormat.getCurrencyInstance();
     }
 
     @Bean

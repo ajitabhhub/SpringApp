@@ -8,6 +8,8 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean id="nf" class="java.text.NumberFormat" factory-method="getCurrencyInstance"/>
+
     <context:component-scan base-package="com.ajitabh"/>
 
     <bean id="redSox" class="com.ajitabh.entities.RedSox"/>
