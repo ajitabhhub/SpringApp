@@ -1,33 +1,31 @@
 package com.ajitabh;
 
-import com.ajitabh.entities.BaseballGame;
-import com.ajitabh.entities.Game;
-import com.ajitabh.entities.Team;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.ajitabh.entities.*;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
-import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan(basePackages = "com.ajitabh")
+@Import(InfrastructureConfig.class)
 public class AppConfig {
-    @Autowired
-    DataSource dataSource;
-
-    @Resource
-    Team redSox;
-
-    @Resource
-    Team cubs;
 
     @Bean
-    public Game game() {
-        BaseballGame baseballGame = new BaseballGame(redSox, cubs);
+    public Game game(DataSource dataSource) {
+        BaseballGame baseballGame = new BaseballGame(redSox(), cubs());
         baseballGame.setDataSource(dataSource);
         System.out.println("dataSource = " + dataSource);
         return baseballGame;
+    }
+
+    @Bean
+    public Team redSox() {
+        return new RedSox();
+    }
+
+    @Bean
+    public Team cubs() {
+        return new Cubs();
     }
 }

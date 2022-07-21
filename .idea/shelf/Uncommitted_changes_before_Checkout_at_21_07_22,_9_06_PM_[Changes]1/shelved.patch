@@ -1,0 +1,20 @@
+Index: src/main/java/com/ajitabh/entities/Cubs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.ajitabh.entities;\n\nimport org.springframework.stereotype.Component;\n\npublic class Cubs implements Team {\n\n    @Override\n    public String getName() {\n        return \"Chicago Cubs\";\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/ajitabh/entities/Cubs.java b/src/main/java/com/ajitabh/entities/Cubs.java
+--- a/src/main/java/com/ajitabh/entities/Cubs.java	
++++ b/src/main/java/com/ajitabh/entities/Cubs.java	
+@@ -1,7 +1,8 @@
+ package com.ajitabh.entities;
+ 
++import org.springframework.context.annotation.Bean;
+ import org.springframework.stereotype.Component;
+-
++@Component
+ public class Cubs implements Team {
+ 
+     @Override

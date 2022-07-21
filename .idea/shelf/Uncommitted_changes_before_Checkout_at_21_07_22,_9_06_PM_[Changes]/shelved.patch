@@ -1,0 +1,152 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"93714079-0d88-4361-a428-ff46829bf422\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"SpringApp\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"SpringApp\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"SpringApp\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Dependencies\" type=\"6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"SpringApp\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Run Configurations\" type=\"7b0102dc:RunConfigurationsNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\n      <list>\n        <option value=\"Ajitabh\" />\n      </list>\n    </option>\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"annotation\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2CDYWFFvCJFVTsG6RD3J4Pnp3gO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"project.structure.last.edited\": \"SDKs\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.46198156\",\n    \"run.code.analysis.last.selected.profile\": \"pProject Default\",\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\"\n  },\n  \"keyToStringList\": {\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\n      \"XML\"\n    ]\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.RunDemo\">\n    <configuration name=\"RunDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.ajitabh.RunDemo\" />\n      <module name=\"SpringApp.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.ajitabh.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"SpringApp [buildDependents]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"buildDependents\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"SpringApp [buildNeeded]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"buildNeeded\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"SpringApp [classes]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"classes\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"SpringApp [testClasses]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"testClasses\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.RunDemo\" />\n        <item itemvalue=\"Gradle.SpringApp [testClasses]\" />\n        <item itemvalue=\"Gradle.SpringApp [classes]\" />\n        <item itemvalue=\"Gradle.SpringApp [buildNeeded]\" />\n        <item itemvalue=\"Gradle.SpringApp [buildDependents]\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"93714079-0d88-4361-a428-ff46829bf422\" name=\"Changes\" comment=\"\" />\n      <created>1658338659372</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1658338659372</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Initial version\">\n      <created>1658340156107</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658340156107</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Initial version\">\n      <created>1658340423596</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658340423596</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Java Based Configuration\">\n      <created>1658407869704</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658407869704</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Java Based Configuration\">\n      <created>1658408028194</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658408028194</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Annotation Configuration\">\n      <created>1658409532660</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658409532660</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Refactoring\">\n      <created>1658409611421</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658409611421</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Initial version\" />\n    <MESSAGE value=\"Java Based Configuration\" />\n    <MESSAGE value=\"Annotation Configuration\" />\n    <MESSAGE value=\"Refactoring\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Refactoring\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,11 +6,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="93714079-0d88-4361-a428-ff46829bf422" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -90,20 +86,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "project.structure.last.edited": "SDKs",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.46198156",
+-    "run.code.analysis.last.selected.profile": "pProject Default",
+-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.46198156&quot;,
++    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+   },
+-  "keyToStringList": {
+-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+-      "XML"
++  &quot;keyToStringList&quot;: {
++    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
++      &quot;XML&quot;
+     ]
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/resources" />
+Index: src/main/java/com/ajitabh/RunDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.ajitabh;\n\nimport com.ajitabh.entities.Game;\nimport org.springframework.context.ApplicationContext;\nimport org.springframework.context.support.ClassPathXmlApplicationContext;\n\npublic class RunDemo {\n    public static void main(String[] args) {\n//        ApplicationContext context =\n//                new AnnotationConfigApplicationContext(AppConfig.class);\n        ApplicationContext context =\n                new ClassPathXmlApplicationContext(\"applicationContext.xml\");\n\n        Game game = context.getBean(\"game\", Game.class);\n        System.out.println(game.playGame());\n\n        System.out.println(\"There are \" + context.getBeanDefinitionCount());\n        for (String name : context.getBeanDefinitionNames()) {\n            System.out.println(\"name = \" + name);\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/ajitabh/RunDemo.java b/src/main/java/com/ajitabh/RunDemo.java
+--- a/src/main/java/com/ajitabh/RunDemo.java	
++++ b/src/main/java/com/ajitabh/RunDemo.java	
+@@ -2,21 +2,28 @@
+ 
+ import com.ajitabh.entities.Game;
+ import org.springframework.context.ApplicationContext;
++import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+ import org.springframework.context.support.ClassPathXmlApplicationContext;
+ 
++import java.text.NumberFormat;
++
+ public class RunDemo {
+     public static void main(String[] args) {
+-//        ApplicationContext context =
+-//                new AnnotationConfigApplicationContext(AppConfig.class);
+         ApplicationContext context =
+-                new ClassPathXmlApplicationContext("applicationContext.xml");
++                new AnnotationConfigApplicationContext(AppConfig.class);
++//        ApplicationContext context =
++//                new ClassPathXmlApplicationContext("applicationContext.xml");
+ 
+-        Game game = context.getBean("game", Game.class);
+-        System.out.println(game.playGame());
++        NumberFormat nf = context.getBean("nf", NumberFormat.class);
++        double amount = 12345678.9012345;
++        System.out.println(nf.format(amount));
+ 
+-        System.out.println("There are " + context.getBeanDefinitionCount());
+-        for (String name : context.getBeanDefinitionNames()) {
+-            System.out.println("name = " + name);
+-        }
++//        Game game = context.getBean("game", Game.class);
++//        System.out.println(game.playGame());
++//
++//        System.out.println("There are " + context.getBeanDefinitionCount());
++//        for (String name : context.getBeanDefinitionNames()) {
++//            System.out.println("name = " + name);
++//        }
+     }
+ }
+Index: src/main/java/com/ajitabh/AppConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.ajitabh;\n\nimport com.ajitabh.entities.BaseballGame;\nimport com.ajitabh.entities.Game;\nimport com.ajitabh.entities.Team;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.context.annotation.Bean;\nimport org.springframework.context.annotation.ComponentScan;\nimport org.springframework.context.annotation.Configuration;\n\nimport javax.annotation.Resource;\nimport javax.sql.DataSource;\n\n@Configuration\n@ComponentScan(basePackages = \"com.ajitabh\")\npublic class AppConfig {\n    @Autowired\n    DataSource dataSource;\n\n    @Resource\n    Team redSox;\n\n    @Resource\n    Team cubs;\n\n    @Bean\n    public Game game() {\n        BaseballGame baseballGame = new BaseballGame(redSox, cubs);\n        baseballGame.setDataSource(dataSource);\n        System.out.println(\"dataSource = \" + dataSource);\n        return baseballGame;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/ajitabh/AppConfig.java b/src/main/java/com/ajitabh/AppConfig.java
+--- a/src/main/java/com/ajitabh/AppConfig.java	
++++ b/src/main/java/com/ajitabh/AppConfig.java	
+@@ -10,6 +10,7 @@
+ 
+ import javax.annotation.Resource;
+ import javax.sql.DataSource;
++import java.text.NumberFormat;
+ 
+ @Configuration
+ @ComponentScan(basePackages = "com.ajitabh")
+@@ -23,6 +24,11 @@
+     @Resource
+     Team cubs;
+ 
++    @Bean
++    public NumberFormat nf() {
++        return NumberFormat.getCurrencyInstance();
++    }
++
+     @Bean
+     public Game game() {
+         BaseballGame baseballGame = new BaseballGame(redSox, cubs);
+Index: src/main/resources/applicationContext.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<beans xmlns=\"http://www.springframework.org/schema/beans\"\n       xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n       xmlns:context=\"http://www.springframework.org/schema/context\"\n       xsi:schemaLocation=\"\n       http://www.springframework.org/schema/beans\n       http://www.springframework.org/schema/beans/spring-beans.xsd\n       http://www.springframework.org/schema/context\n       http://www.springframework.org/schema/beans/spring-context.xsd\">\n\n    <context:component-scan base-package=\"com.ajitabh\"/>\n\n    <bean id=\"redSox\" class=\"com.ajitabh.entities.RedSox\"/>\n    <bean id=\"cubs\" class=\"com.ajitabh.entities.Cubs\"/>\n    <bean id=\"royals\" class=\"com.ajitabh.entities.Royals\"/>\n\n    <bean id=\"game\" class=\"com.ajitabh.entities.BaseballGame\">\n        <property name=\"awayTeam\" ref=\"redSox\"/>\n        <property name=\"homeTeam\" ref=\"cubs\"/>\n        <property name=\"dataSource\" ref=\"dataSource\"/>\n    </bean>\n<!--    <bean id=\"dataSource\" class=\"org.springframework.jdbc.datasource.DriverManagerDataSource\"/>-->\n    <bean id=\"dataSource\" class=\"org.springframework.jdbc.datasource.DriverManagerDataSource\"/>\n</beans>
+===================================================================
+diff --git a/src/main/resources/applicationContext.xml b/src/main/resources/applicationContext.xml
+--- a/src/main/resources/applicationContext.xml	
++++ b/src/main/resources/applicationContext.xml	
+@@ -6,7 +6,9 @@
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+-       http://www.springframework.org/schema/beans/spring-context.xsd">
++       http://www.springframework.org/schema/context/spring-context.xsd">
++
++    <bean id="nf" class="java.text.NumberFormat" factory-method="getCurrencyInstance"/>
+ 
+     <context:component-scan base-package="com.ajitabh"/>
+ 
