@@ -1,17 +1,18 @@
 package com.ajitabh;
 
-import com.ajitabh.entities.*;
+import com.ajitabh.entities.BaseballGame;
+import com.ajitabh.entities.Game;
+import com.ajitabh.entities.Team;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan (basePackages = "com.ajitabh")
+@ComponentScan(basePackages = "com.ajitabh")
 public class AppConfig {
     @Autowired
     DataSource dataSource;
