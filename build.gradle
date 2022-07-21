@@ -10,8 +10,14 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    compileClasspath 'org.springframework:spring-context:5.3.20'
+    runtimeClasspath 'org.springframework:spring-context:5.3.20'
+    compileClasspath 'org.springframework:spring-jdbc:5.3.20'
+    runtimeClasspath 'org.springframework:spring-jdbc:5.3.20'
+    testCompileClasspath 'org.springframework:spring-test:5.3.20'
+    testRuntimeClasspath 'org.springframework:spring-test:5.3.20'
+    testRuntimeClasspath 'junit:junit:4.13.2'
+    testCompileClasspath 'junit:junit:4.13.2'
 }
 
 test {
