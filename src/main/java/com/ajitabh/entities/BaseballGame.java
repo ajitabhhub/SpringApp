@@ -7,15 +7,14 @@ public class BaseballGame implements Game {
     private Team awayTeam;
     private DataSource dataSource;
 
+    public BaseballGame() {
+    }
+
     public BaseballGame(Team homeTeam, Team awayTeam) {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
     }
 
-    @Override
-    public void setDataSource(DataSource dataSource) {
-        this.dataSource = dataSource;
-    }
 
     @Override
     public Team getHomeTeam() {
@@ -39,6 +38,11 @@ public class BaseballGame implements Game {
 
     public DataSource getDataSource() {
         return dataSource;
+    }
+
+    @Override
+    public void setDataSource(DataSource dataSource) {
+        this.dataSource = dataSource;
     }
 
     @Override

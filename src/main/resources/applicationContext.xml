@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/beans/spring-context.xsd">
+
+    <context:component-scan base-package="com.ajitabh"/>
+
+    <bean id="redSox" class="com.ajitabh.entities.RedSox"/>
+    <bean id="cubs" class="com.ajitabh.entities.Cubs"/>
+    <bean id="royals" class="com.ajitabh.entities.Royals"/>
+
+    <bean id="game" class="com.ajitabh.entities.BaseballGame">
+        <property name="awayTeam" ref="redSox"/>
+        <property name="homeTeam" ref="cubs"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+<!--    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"/>-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
+</beans>

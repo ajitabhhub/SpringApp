@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93714079-0d88-4361-a428-ff46829bf422" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java" afterDir="false" />
@@ -71,7 +73,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="annotation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,8 +97,18 @@
     "project.structure.side.proportion": "0.46198156",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.RunDemo">
     <configuration name="RunDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ajitabh.RunDemo" />
@@ -242,12 +254,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658408028194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Annotation Configuration">
+      <created>1658409532660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658409532660</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactoring">
+      <created>1658409611421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658409611421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial version" />
     <MESSAGE value="Java Based Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Based Configuration" />
+    <MESSAGE value="Annotation Configuration" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>
