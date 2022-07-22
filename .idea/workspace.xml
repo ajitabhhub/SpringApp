@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93714079-0d88-4361-a428-ff46829bf422" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Cubs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/RedSox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/Royals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

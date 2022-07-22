@@ -1,10 +1,12 @@
 package com.ajitabh;
 
 import com.ajitabh.entities.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 
 import javax.sql.DataSource;
 import java.text.NumberFormat;
+import java.util.List;
 
 @Configuration
 @Import(InfrastructureConfig.class)
@@ -12,9 +14,15 @@ import java.text.NumberFormat;
 @EnableAspectJAutoProxy
 public class AppConfig {
 
+    @Autowired
+    private DataSource dataSource;
+
+    @Autowired
+    private List<Team> teams;
+
     @Bean
-    public Game game(DataSource dataSource) {
-        BaseballGame baseballGame = new BaseballGame(redSox(), cubs());
+    public Game game() {
+        BaseballGame baseballGame = new BaseballGame(teams.get(0), teams.get(1));
         baseballGame.setDataSource(dataSource);
         System.out.println("dataSource = " + dataSource);
         return baseballGame;
@@ -23,20 +31,5 @@ public class AppConfig {
     @Bean
     public NumberFormat nf() {
         return NumberFormat.getCurrencyInstance();
-    }
-
-    @Bean
-    public Team redSox() {
-        return new RedSox();
-    }
-
-    @Bean
-    public Team cubs() {
-        return new Cubs();
-    }
-
-    @Bean
-    public Team royals() {
-        return new Royals();
     }
 }
