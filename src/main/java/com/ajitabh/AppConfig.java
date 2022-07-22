@@ -1,16 +1,15 @@
 package com.ajitabh;
 
 import com.ajitabh.entities.*;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.*;
 
 import javax.sql.DataSource;
 import java.text.NumberFormat;
 
 @Configuration
 @Import(InfrastructureConfig.class)
+@ComponentScan(basePackages = "com.ajitabh")
+@EnableAspectJAutoProxy
 public class AppConfig {
 
     @Bean
@@ -34,5 +33,10 @@ public class AppConfig {
     @Bean
     public Team cubs() {
         return new Cubs();
+    }
+
+    @Bean
+    public Team royals() {
+        return new Royals();
     }
 }

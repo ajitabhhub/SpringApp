@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/RunDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ajitabh/entities/BaseballGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +37,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="SpringApp" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SpringApp" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -109,6 +102,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+      <command value="gradle build" />
+    </option>
+  </component>
   <component name="RunManager" selected="Application.RunDemo">
     <configuration name="RunDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ajitabh.RunDemo" />
@@ -123,18 +122,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringApp [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpringApp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="buildNeeded" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -144,18 +143,18 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SpringApp [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpringApp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="classes" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SpringApp [clean]" />
+        <item itemvalue="Gradle.SpringApp [build]" />
         <item itemvalue="Gradle.SpringApp [dependencies]" />
         <item itemvalue="Application.RunDemo" />
         <item itemvalue="Gradle.SpringApp [testClasses]" />
-        <item itemvalue="Gradle.SpringApp [classes]" />
-        <item itemvalue="Gradle.SpringApp [buildNeeded]" />
       </list>
     </recent_temporary>
   </component>
