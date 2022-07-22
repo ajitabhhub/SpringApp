@@ -9,18 +9,21 @@ import java.text.NumberFormat;
 
 public class RunDemo {
     public static void main(String[] args) {
+//        AnnotationConfigApplicationContext context =
+//                new AnnotationConfigApplicationContext(AppConfig.class);
 //        ApplicationContext context =
 //                new AnnotationConfigApplicationContext(AppConfig.class);
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        NumberFormat nf = context.getBean("nf", NumberFormat.class);
-        double amount = 12345678.9012345;
-        System.out.println(nf.format(amount));
+//        NumberFormat nf = context.getBean("nf", NumberFormat.class);
+//        double amount = 12345678.9012345;
+//        System.out.println(nf.format(amount));
 
-//        Game game = context.getBean("game", Game.class);
-//        System.out.println(game.playGame());
-//
+        Game game = context.getBean("game", Game.class);
+        System.out.println(game);
+//        context.destroy();
+
 //        System.out.println("There are " + context.getBeanDefinitionCount());
 //        for (String name : context.getBeanDefinitionNames()) {
 //            System.out.println("name = " + name);

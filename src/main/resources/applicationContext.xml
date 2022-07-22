@@ -16,7 +16,7 @@
     <bean id="cubs" class="com.ajitabh.entities.Cubs"/>
     <bean id="royals" class="com.ajitabh.entities.Royals"/>
 
-    <bean id="game" class="com.ajitabh.entities.BaseballGame">
+    <bean id="game" class="com.ajitabh.entities.BaseballGame" scope="singleton" destroy-method="endGame">
         <property name="awayTeam" ref="redSox"/>
         <property name="homeTeam" ref="cubs"/>
         <property name="dataSource" ref="dataSource"/>

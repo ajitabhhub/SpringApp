@@ -4,6 +4,7 @@ import com.ajitabh.entities.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.Scope;
 
 import javax.sql.DataSource;
 import java.text.NumberFormat;

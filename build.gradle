@@ -10,12 +10,16 @@ repositories {
 }
 
 dependencies {
-    compileClasspath 'org.springframework:spring-context:5.3.20'
-    runtimeClasspath 'org.springframework:spring-context:5.3.20'
-    compileClasspath 'org.springframework:spring-jdbc:5.3.20'
-    runtimeClasspath 'org.springframework:spring-jdbc:5.3.20'
-    testCompileClasspath 'org.springframework:spring-test:5.3.20'
-    testRuntimeClasspath 'org.springframework:spring-test:5.3.20'
+    compileClasspath 'org.springframework:spring-context:4.2.2.RELEASE'
+    runtimeClasspath 'org.springframework:spring-context:4.2.2.RELEASE'
+    compileClasspath 'org.springframework:spring-jdbc:4.2.2.RELEASE'
+    runtimeClasspath 'org.springframework:spring-jdbc:4.2.2.RELEASE'
+    compileClasspath 'org.springframework:spring-aop:4.2.2.RELEASE'
+    runtimeClasspath 'org.springframework:spring-aop:4.2.2.RELEASE'
+    compileClasspath 'javax.annotation:javax.annotation-api:1.3.2'
+    runtimeClasspath 'javax.annotation:javax.annotation-api:1.3.2'
+    testCompileClasspath 'org.springframework:spring-test:4.2.2.RELEASE'
+    testRuntimeClasspath 'org.springframework:spring-test:4.2.2.RELEASE'
     testRuntimeClasspath 'junit:junit:4.13.2'
     testCompileClasspath 'junit:junit:4.13.2'
 }

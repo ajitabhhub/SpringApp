@@ -1,5 +1,7 @@
 package com.ajitabh.entities;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import javax.sql.DataSource;
 
 public class BaseballGame implements Game {
@@ -48,5 +50,20 @@ public class BaseballGame implements Game {
     @Override
     public String playGame() {
         return Math.random() < 0.5 ? getHomeTeam().getName() : getAwayTeam().getName();
+    }
+
+    @PostConstruct
+    public void startGame() {
+        System.out.println("*** Playing National Anthem ***");
+    }
+
+    @PreDestroy
+    public void endGame() {
+        System.out.println("*** Sending highlights to MLB ***");
+    }
+
+    @Override
+    public String toString() {
+        return "Playing between " + awayTeam.getName() + " at " + homeTeam.getName();
     }
 }
