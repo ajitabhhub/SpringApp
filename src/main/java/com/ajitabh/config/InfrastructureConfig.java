@@ -1,4 +1,4 @@
-package com.ajitabh;
+package com.ajitabh.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

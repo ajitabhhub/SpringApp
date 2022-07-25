@@ -1,12 +1,9 @@
 package com.ajitabh;
 
+import com.ajitabh.config.AppConfig;
 import com.ajitabh.entities.Game;
 import com.ajitabh.entities.Team;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.text.NumberFormat;
 
 public class RunDemo {
     public static void main(String[] args) {

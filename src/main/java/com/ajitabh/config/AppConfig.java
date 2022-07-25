@@ -1,4 +1,4 @@
-package com.ajitabh;
+package com.ajitabh.config;
 
 import com.ajitabh.entities.*;
 import org.springframework.beans.factory.annotation.Autowired;
