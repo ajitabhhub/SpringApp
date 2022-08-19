@@ -1,35 +1,65 @@
 package com.ajitabh.config;
 
-import com.ajitabh.entities.*;
+import com.ajitabh.repositories.AccountRepository;
+import com.ajitabh.repositories.JdbcAccountRepository;
+import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
+import org.springframework.core.env.Environment;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
+import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
-import java.text.NumberFormat;
-import java.util.List;
 
 @Configuration
-@Import(InfrastructureConfig.class)
 @ComponentScan(basePackages = "com.ajitabh")
-@EnableAspectJAutoProxy
+@PropertySource("classpath:prod.properties")
+@EnableTransactionManagement
 public class AppConfig {
-
     @Autowired
-    private DataSource dataSource;
+    private Environment env;
 
-    @Autowired
-    private List<Team> teams;
+    @Bean(name = "dateSource", destroyMethod = "shutdown")
+//    @Profile("test")
+    public DataSource dateSourceForTest() {
+        return new EmbeddedDatabaseBuilder()
+                .generateUniqueName(true)
+                .setType(EmbeddedDatabaseType.H2)
+                .setScriptEncoding("UTF-8")
+                .ignoreFailedDrops(true)
+                .addScript("schema.sql")
+                .addScript("data.sql")
+                .build();
+    }
 
-    @Bean
-    public Game game() {
-        BaseballGame baseballGame = new BaseballGame(teams.get(0), teams.get(1));
-        baseballGame.setDataSource(dataSource);
-        System.out.println("dataSource = " + dataSource);
-        return baseballGame;
+    @Bean(name = "transactionManager")
+//    @Profile("test")
+    public PlatformTransactionManager transactionManagerForTest() {
+        return new DataSourceTransactionManager(dateSourceForTest());
+    }
+
+    @Bean(name = "dataSource")
+    @Profile("prod")
+    public DataSource dataSourceForProd() {
+        BasicDataSource dataSource = new BasicDataSource();
+        dataSource.setDriverClassName(env.getProperty("db.driver"));
+        dataSource.setUrl(env.getProperty("db.url"));
+        dataSource.setUsername(env.getProperty("db.user"));
+        dataSource.setPassword(env.getProperty("db.pass"));
+        return dataSource;
+    }
+
+    @Bean(name = "transactionManager")
+    @Profile("prod")
+    public PlatformTransactionManager transactionManagerForProd() {
+        return new DataSourceTransactionManager(dataSourceForProd());
     }
 
     @Bean
-    public NumberFormat nf() {
-        return NumberFormat.getCurrencyInstance();
+    public AccountRepository repository() {
+        return new JdbcAccountRepository(dateSourceForTest());
     }
 }
