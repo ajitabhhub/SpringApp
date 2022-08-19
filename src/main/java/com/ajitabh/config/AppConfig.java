@@ -1,5 +1,6 @@
 package com.ajitabh.config;
 
+import com.ajitabh.entities.*;
 import com.ajitabh.repositories.AccountRepository;
 import com.ajitabh.repositories.JdbcAccountRepository;
 import org.apache.commons.dbcp2.BasicDataSource;
@@ -13,6 +14,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
+import java.util.List;
 
 @Configuration
 @ComponentScan(basePackages = "com.ajitabh")
@@ -21,6 +23,13 @@ import javax.sql.DataSource;
 public class AppConfig {
     @Autowired
     private Environment env;
+
+    @Autowired
+    private DataSource dataSource;
+
+    @Autowired
+    private List<Team> teams;
+
 
     @Bean(name = "dateSource", destroyMethod = "shutdown")
 //    @Profile("test")
@@ -61,5 +70,29 @@ public class AppConfig {
     @Bean
     public AccountRepository repository() {
         return new JdbcAccountRepository(dateSourceForTest());
+    }
+
+    @Bean
+    public Game game() {
+        BaseballGame baseballGame = new BaseballGame(teams.get(0), teams.get(1));
+        baseballGame.setDataSource(dataSource);
+        System.out.println("dataSource = " + dataSource);
+        return baseballGame;
+    }
+
+
+    @Bean
+    public Team redSox() {
+        return new RedSox();
+    }
+
+    @Bean
+    public Team cubs() {
+        return new Cubs();
+    }
+
+    @Bean
+    public Team royals() {
+        return new Royals();
     }
 }
